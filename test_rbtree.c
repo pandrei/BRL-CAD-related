@@ -59,11 +59,11 @@ int main(){
 
   struct bu_rb_tree *TestTree;
   void *searched_value;
-  char *sources[]={"h","e","a","l","l","o"};
-  int i=0;
-  int Diagnosis_option=0;
-  TestTree =bu_rb_create1("TestingTree",Cmpf);
-  for ( i = 0; i < 6; i++ )
+  char *sources[] = {"h","e","a","l","l","o"};
+  int i = 0; 
+  int Diagnosis_option = 0;
+  TestTree = bu_rb_create1("TestingTree",Cmpf);
+  for (i = 0; i < 6; i++)
     bu_rb_insert(TestTree,sources[i]);
 
   printf("SEARCH TEST: \n"
@@ -83,9 +83,10 @@ int main(){
   searched_value = bu_rb_search(TestTree,0,"not");
   if(searched_value == NULL)
     {	printf("\t\t\t[PASSED]\n");
-/*Fails this test on purpose , it should've been compared to
-  rb_null(tree) instead. Comparison would probably require a cast.
-  Let me know if I should change it .
+/**
+* Fails this test on purpose , it should've been compared to
+* rb_null(tree) instead. Comparison would probably require a cast.
+* Let me know if I should change it .
 */
     }
   else
@@ -100,7 +101,7 @@ int main(){
 
   printf("\tSEARCHING THE SAME VALUE AFTER DELETION \n");
   searched_value = bu_rb_search(TestTree,0,"h");
-  if(searched_value==NULL)
+  if(searched_value == NULL)
     {	printf("\t\t\t[PASSED]\n");
 
     }
@@ -114,12 +115,12 @@ int main(){
   printf("Input 1 to display the values walk or 0 for a more"
 	 "detailed diagnosis display\n");
   scanf("%d",&Diagnosis_option);
-  if (Diagnosis_option!=1 && Diagnosis_option!=0) {
+  if (Diagnosis_option != 1 && Diagnosis_option != 0) {
 																																																																																								
     printf("ERROR AT CHOICE INPUT\n");
     return 0;
   }
-  if (Diagnosis_option==1){
+  if (Diagnosis_option == 1){
     printf("\nPREORDER:\n");
     bu_rb_walk(TestTree,0,ModifFunction,0);	
     searched_value = bu_rb_search(TestTree,0,"h");
