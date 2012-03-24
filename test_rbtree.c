@@ -70,7 +70,7 @@ int main(){
 	 "\tSEARCHING AN EXISTING VALUE:\n");
 
   searched_value = bu_rb_search(TestTree,0,"h");
-  if(searched_value==NULL)
+  if(searched_value == NULL)
     {
       printf("\t\t\t[FAILED]\n"
 	     "\t\t\tShould be h \n");
