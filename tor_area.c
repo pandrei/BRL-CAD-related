@@ -5,5 +5,5 @@ long int rt_tor_surface_area(struct bu_vls *str, const struct rt_db_internal *ip
 
 	r3 = tip->r_a - tip->r_h;
 	r4 = tip->r_a + tip->r_h;
-	sArea = (bn_pi * bn_pi)*(r4+r3)*(r4-r3);
+	sArea = (bn_pi * bn_pi)*(r4+r3)*(r4-r3)*mm2local;
 }
