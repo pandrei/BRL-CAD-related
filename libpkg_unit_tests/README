@@ -1,0 +1,16 @@
+--------------------------------------------------------
+
+This folder contains test units for the following functions in
+brlcad/src/libpkg/ :
+
+pkg_block
+pkg_close
+pkg_flush
+pkg_getclient
+pkg_open
+pkg_permserv
+pkg_process
+pkg_stream
+pkg_suckin
+
+
