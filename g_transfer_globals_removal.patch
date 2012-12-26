@@ -20,11 +20,7 @@ Index: src/gtools/g_transfer.c
   * geometry from the client.
   */
 -struct db_i *DBIP = NULL;
-+/*
-+ * Struct DBIP = null;
-+ * srv_argc = 0;
-+ * char **srv_argv = NULL;
-+ */
+
 +typedef struct _server_data_ {
 +	struct db_i *DBIP;
 +	/* used by server to stash what it should shoot at */
