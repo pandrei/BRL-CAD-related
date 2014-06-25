@@ -1,4 +1,4 @@
-#Object-oriented C++ Geometry API
+##Object-oriented C++ Geometry API
 
 
-##Summary Overview
+###Summary Overview
