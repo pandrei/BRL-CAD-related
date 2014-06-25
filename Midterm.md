@@ -54,12 +54,14 @@ serve more like a journal.
 
 
 #sph
-Sphere, special case of the ellipsoid, with vectors A B and C all the same magnitude (radius).
-<img src="http://brlcad.org/w/images/0/02/Union_sph.png" alt="Sphere" height="80" width="80"/>
+Sphere, special case of the ellipsoid, with vectors A B and C all the same magnitude (radius).<br/>
+<img src="http://brlcad.org/w/images/0/02/Union_sph.png" alt="Sphere" height="100" width="100"/> 
 <br/>
 #sketch
-2d outline
-<br/>
+2d outline<br/>
+<img src="http://brlcad.org/w/images/thumb/8/83/Example_sketch.png/256px-Example_sketch.png" alt="Sketch" height="100" width="100"/> <br/>
 #extrude
-Extrusion of a 2-d sketch
+Extrusion of a 2-d sketch<br/>
+<img src="http://i.imgur.com/mBmvsSV.png" alt="Extrude" height="100" width="100"/> 
 <br/>
+
