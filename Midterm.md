@@ -2,8 +2,8 @@
 <br/>
 ## Summary Overview 
 
-I have been working on this project, as part of [Google Summer of Code](https://developers.google.com/open-source/soc/?csw=1) program. My initial proposal was to implement  the interfaces for [sph](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sph), [sketch](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sketch) and extrude(#extrude) primitives. So far, I have completed the one for [sph](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sph) and I expect to finish the [sketch](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sketch) in the following 
-couple of days. By the time I will have finished sketch(https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sketch) I would have written about 1500 - 2000 lines of code,most of them consisting in headers(the interface design) and actual implementantion (matching C++ file with the actual classes and methods behaviour implemented). My estimation is that the total number of lines proposed until
+I have been working on this project, as part of [Google Summer of Code](https://developers.google.com/open-source/soc/?csw=1) program. My initial proposal was to implement  the interfaces for [sph](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sph), [sketch](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sketch) and extrude(#extrude) primitives. So far, I have completed the one for [sph](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sph) and I expect to finish the [sketch](https://github.com/pandrei/BRL-CAD-related/blob/master/Midter.md#sketch) in the following 
+couple of days. By the time I will have finished [sketch](https://github.com/pandrei/BRL-CAD-related/blob/master/Midterm.md#sketch) I would have written about 1500 - 2000 lines of code,most of them consisting in headers(the interface design) and actual implementantion (matching C++ file with the actual classes and methods behaviour implemented). My estimation is that the total number of lines proposed until
 mid-term would be around 3000.
 <br/>
 <br/>
