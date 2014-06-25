@@ -43,7 +43,7 @@ catch up until the end and finish as planned, constantly improving the depth of 
 
 Below, you can find the links to the patch tickets on Sourceforge as well as my development log.
 The patch tickets offer a better insight of the development course(in detail) while the development logs
-serve more like a journal.
+serve more like a journal. <br/>
 [Sphere](https://sourceforge.net/p/brlcad/patches/279/) <br/>
 
 [Sketch](https://sourceforge.net/p/brlcad/patches/280/) <br/>
