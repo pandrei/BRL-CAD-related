@@ -55,7 +55,7 @@ serve more like a journal.
 
 #sph
 Sphere, special case of the ellipsoid, with vectors A B and C all the same magnitude (radius).
-<img src="http://brlcad.org/w/images/0/02/Union_sph.png" alt="Sphere" style="width: 100px;"/>
+<img src="http://brlcad.org/w/images/0/02/Union_sph.png" alt="Sphere" style="width: 50px;"/>
 <br/>
 #sketch
 2d outline
